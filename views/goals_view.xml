@@ -3,7 +3,7 @@
     <data>
         <record id="view_dashboard_goals_tree" model="ir.ui.view">
             <field name="name">dashboard.goals.tree</field>
-            <field name="model">dashboard_goals</field>
+            <field name="model">dashboard.goals</field>
             <field name="arch" type="xml">
                 <tree editable="top">
                     <field name="start_date"/>
@@ -20,7 +20,7 @@
 
         <record id="action_dashboard_goals_tree" model="ir.actions.act_window">
             <field name="name">Metas de Facturación</field>
-            <field name="res_model">dashboard_goals</field>
+            <field name="res_model">dashboard.goals</field>
             <field name="view_mode">tree,form</field>
         </record>
 

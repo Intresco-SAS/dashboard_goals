@@ -1,7 +1,7 @@
 from odoo import models, fields
 
-class dashboard_goals(models.Model):
-    _name = 'dashboard_goals'
+class DashboardGoals(models.Model):
+    _name = 'dashboard.goals'
     _description = 'Metas de Facturación'
 
     start_date = fields.Date(string='Fecha Inicio')
